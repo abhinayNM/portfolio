@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinay Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- EmailJS Script -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Floating Shapes Background -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo">Abhinay</a>
+        <i class='bx bx-menu' id="menu" style='color:#1a1a2e'></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>I'm <span>Gajula Abhinay</span></h1>
+            <div class="text-animation">
+                <h2>Developer</h2>
+            </div>
+            <p>A dedicated and innovative software developer with some experience in designing,
+                developing, and maintaining complex web applications.
+                Highly skilled in various technologies and programming languages to create dynamic, user-friendly
+                websites and applications.</p>
+            <div class="btn-section">
+                <a href="#contact" class="btn btn-primary">Let's Talk</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/abhhiinnaayy?igsh=MWJycGZ2MTgxMmFzcw%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/abhinay-gajula-a0b994281/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/abhinayNM" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+
+        </div>
+        <div class="home-image">
+            <img src="img.jpg" alt="Profile Image">
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <h2 class="title">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="img.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2>Full Stack Developer</h2>
+                <p>A dedicated and innovative software developer with some experience in designing,
+                    developing, and maintaining complex web applications.
+                    Highly skilled in various technologies and programming languages to create dynamic, user-friendly
+                    websites and applications.</p>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="education" id="education">
+        <h2 class="title">My <span>Education</span></h2>
+        <div class="row">
+            <div class="column">
+                <h2>Education</h2>
+                <div class="box">
+                    <div class="column">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">2023-27<i class='bx bxs-calendar'></i></div>
+                                <h3>B-Tech</h3>
+                                <p>As a dedicated BTech student,
+                                    I have immersed myself in the field of engineering, developing a strong foundation
+                                    in both theoretical and practical aspects.
+                                    My academic journey has equipped me with essential skills in problem-solving,
+                                    critical thinking, and project management.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">2021-23 <i class='bx bxs-calendar'></i></div>
+                                <h3>Inter</h3>
+                                <p> As a committed intermediate college student,
+                                    I have diligently engaged in my studies, building a solid foundation in various
+                                    subjects.
+                                    My academic journey has developed my critical thinking, problem-solving, and
+                                    analytical skills.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">2021 <i class='bx bxs-calendar'></i></div>
+                                <h3>School</h3>
+                                <p>As a dedicated school student, I have consistently excelled in my academic pursuits,
+                                    developing a solid foundation across various subjects.
+                                    My journey in school has equipped me with critical thinking, problem-solving, and
+                                    analytical skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h2 class="title">My <span>Skills</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Frontend</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML <span class="percentage">90%</span></span>
+                    <span class="skill-tag">CSS <span class="percentage">85%</span></span>
+                    <span class="skill-tag">JavaScript <span class="percentage">75%</span></span>
+                </div>
+            </div>
+            <div class="skill-content">
+                <h3 class="skill-title">Backend & Databases</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python <span class="percentage">70%</span></span>
+                    <span class="skill-tag">Java <span class="percentage">75%</span></span>
+                    <span class="skill-tag">MySQL <span class="percentage">75%</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="title">Contact <span>Me</span></h2>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cfac72fb-4c10-4aa8-9362-fbee4d184b8c">
+            <div class="input-box">
+                <input type="text" name="name" required placeholder="Your Name *">
+                <input type="email" name="email" required placeholder="Your Email *">
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Phone Number">
+                <input type="text" name="subject" required placeholder="Subject *">
+            </div>
+
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="text">
+            <p>Copyright @ 2024 by <span>Abhinay</span></p>
+        </div>
+        <a href="#" class="back-to-top"> <i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
