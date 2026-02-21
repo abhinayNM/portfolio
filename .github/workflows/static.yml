@@ -19,7 +19,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: .
+          path: portfolio/My-Portfolio-main\ \(1\)/My-Portfolio-main/portfolio
           
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
