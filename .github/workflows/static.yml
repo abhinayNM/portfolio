@@ -2,24 +2,21 @@ name: Deploy Portfolio
 
 on:
   push:
-    branches: 
+    branches:
       - main
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: portfolio/My-Portfolio-main\ \(1\)/My-Portfolio-main/portfolio
-          
+          path: "portfolio/My-Portfolio-main (1)/My-Portfolio-main/portfolio"
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
