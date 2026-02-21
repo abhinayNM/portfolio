@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "portfolio"
+          path: .
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
